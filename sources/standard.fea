@@ -1,0 +1,297 @@
+languagesystem DFLT dflt;
+languagesystem grek dflt;
+languagesystem latn dflt;
+
+
+# GSUB 
+
+
+lookup supsSuperscriptlookup {
+  lookupflag 0;
+    sub \one by \onesuperior ;
+    sub \two by \twosuperior ;
+    sub \three by \threesuperior ;
+    sub \four by \foursuperior ;
+    sub \five by \fivesuperior ;
+    sub \six by \sixsuperior ;
+    sub \seven by \sevensuperior ;
+    sub \eight by \eightsuperior ;
+    sub \nine by \ninesuperior ;
+    sub \zero by \zerosuperior ;
+} supsSuperscriptlookup;
+
+lookup smcpLowercasetoSmallCapitalslookup {
+  lookupflag 0;
+    sub \a by \a.smcp ;
+    sub \b by \b.smcp ;
+    sub \c by \c.smcp ;
+    sub \d by \d.smcp ;
+    sub \e by \e.smcp ;
+    sub \f by \f.smcp ;
+    sub \g by \g.smcp ;
+    sub \h by \h.smcp ;
+    sub \i by \i.smcp ;
+    sub \j by \j.smcp ;
+    sub \k by \k.smcp ;
+    sub \l by \l.smcp ;
+    sub \m by \m.smcp ;
+    sub \n by \n.smcp ;
+    sub \o by \o.smcp ;
+    sub \p by \p.smcp ;
+    sub \q by \q.smcp ;
+    sub \r by \r.smcp ;
+    sub \s by \s.smcp ;
+    sub \t by \t.smcp ;
+    sub \u by \u.smcp ;
+    sub \v by \v.smcp ;
+    sub \w by \w.smcp ;
+    sub \x by \x.smcp ;
+    sub \y by \y.smcp ;
+    sub \z by \z.smcp ;
+    sub \ae by \ae.smcp ;
+    sub \oe by \oe.smcp ;
+    sub \oslash by \oslash.smcp ;
+    sub \germandbls by \germandbls.smcp ;
+    sub \adieresis by \adieresis.smcp ;
+    sub \aacute by \aacute.smcp ;
+    sub \agrave by \agrave.smcp ;
+    sub \acircumflex by \acircumflex.smcp ;
+    sub \atilde by \atilde.smcp ;
+    sub \aring by \aring.smcp ;
+    sub \ccedilla by \ccedilla.smcp ;
+    sub \edieresis by \edieresis.smcp ;
+    sub \eacute by \eacute.smcp ;
+    sub \egrave by \egrave.smcp ;
+    sub \ecircumflex by \ecircumflex.smcp ;
+    sub \idieresis by \idieresis.smcp ;
+    sub \iacute by \iacute.smcp ;
+    sub \igrave by \igrave.smcp ;
+    sub \icircumflex by \icircumflex.smcp ;
+    sub \lslash by \lslash.smcp ;
+    sub \ntilde by \ntilde.smcp ;
+    sub \odieresis by \odieresis.smcp ;
+    sub \oacute by \oacute.smcp ;
+    sub \ograve by \ograve.smcp ;
+    sub \ocircumflex by \ocircumflex.smcp ;
+    sub \otilde by \otilde.smcp ;
+    sub \scaron by \scaron.smcp ;
+    sub \udieresis by \udieresis.smcp ;
+    sub \uacute by \uacute.smcp ;
+    sub \ugrave by \ugrave.smcp ;
+    sub \ucircumflex by \ucircumflex.smcp ;
+    sub \yacute by \yacute.smcp ;
+    sub \zcaron by \zcaron.smcp ;
+    sub \eth by \eth.smcp ;
+    sub \thorn by \thorn.smcp ;
+    sub \ydieresis by \ydieresis.smcp ;
+    sub \aogonek by \aogonek.smcp ;
+    sub \cacute by \cacute.smcp ;
+    sub \ccaron by \ccaron.smcp ;
+    sub \dcaron by \dcaron.smcp ;
+    sub \eogonek by \eogonek.smcp ;
+    sub \ecaron by \ecaron.smcp ;
+    sub \lcaron by \lcaron.smcp ;
+    sub \nacute by \nacute.smcp ;
+    sub \ncaron by \ncaron.smcp ;
+    sub \racute by \racute.smcp ;
+    sub \rcaron by \rcaron.smcp ;
+    sub \sacute by \sacute.smcp ;
+    sub \tcaron by \tcaron.smcp ;
+    sub \uring by \uring.smcp ;
+    sub \zacute by \zacute.smcp ;
+    sub \abreve by \abreve.smcp ;
+    sub \dbar by \dbar.smcp ;
+    sub \gbreve by \gbreve.smcp ;
+#    sub \ij by \ij.smcp ;
+    sub \lacute by \lacute.smcp ;
+    sub \ohungarumlaut by \ohungarumlaut.smcp ;
+    sub \scedilla by \scedilla.smcp ;
+    sub \tcedilla by \tcedilla.smcp ;
+    sub \uhungarumlaut by \uhungarumlaut.smcp ;
+} smcpLowercasetoSmallCapitalslookup;
+
+lookup swshSwashlookup {
+  lookupflag 0;
+    sub \Q by \Q.swsh ;
+} swshSwashlookup;
+
+lookup cv01CharacterVariants01 {
+  lookupflag 0;
+    sub \one by \one.cv01 ;
+} cv01CharacterVariants01;
+
+lookup cv02CharacterVariants02 {
+  lookupflag 0;
+    sub \cent by \cent.cv01 ;
+} cv02CharacterVariants02;
+
+lookup cv03CharacterVariants03 {
+  lookupflag 0;
+    sub \dagger by \dagger.cv01 ;
+} cv03CharacterVariants03;
+
+lookup cv04CharacterVariants04 {
+  lookupflag 0;
+    sub \percent by \percent.cv01 ;
+} cv04CharacterVariants04;
+
+lookup ligaStandardLigatureslookup {
+  lookupflag 0;
+    sub \f \i  by \fi;
+    sub \f \l  by \fl;
+    sub \f \f  by \ff;
+    sub \f \f \i  by \ffi;
+    sub \f \f \l  by \ffl;
+    sub \f \j  by \fj;
+    sub \f \f \j  by \ffj;
+} ligaStandardLigatureslookup;
+
+lookup onumOldstyleFigureslookup {
+  lookupflag 0;
+    sub \one by \one.onum ;
+    sub \two by \two.onum ;
+    sub \three by \three.onum ;
+    sub \four by \four.onum ;
+    sub \five by \five.onum ;
+    sub \six by \six.onum ;
+    sub \seven by \seven.onum ;
+    sub \eight by \eight.onum ;
+    sub \nine by \nine.onum ;
+    sub \zero by \zero.onum ;
+} onumOldstyleFigureslookup;
+
+feature sups {
+
+ script DFLT;
+     language dflt ;
+      lookup supsSuperscriptlookup;
+
+ script grek;
+     language dflt ;
+      lookup supsSuperscriptlookup;
+
+ script latn;
+     language dflt ;
+      lookup supsSuperscriptlookup;
+} sups;
+
+feature smcp {
+
+ script DFLT;
+     language dflt ;
+      lookup smcpLowercasetoSmallCapitalslookup;
+
+ script grek;
+     language dflt ;
+      lookup smcpLowercasetoSmallCapitalslookup;
+
+ script latn;
+     language dflt ;
+      lookup smcpLowercasetoSmallCapitalslookup;
+} smcp;
+
+feature swsh {
+
+ script DFLT;
+     language dflt ;
+      lookup swshSwashlookup;
+
+ script grek;
+     language dflt ;
+      lookup swshSwashlookup;
+
+ script latn;
+     language dflt ;
+      lookup swshSwashlookup;
+} swsh;
+
+feature cv01 {
+
+ script DFLT;
+     language dflt ;
+      lookup cv01CharacterVariants01;
+
+ script grek;
+     language dflt ;
+      lookup cv01CharacterVariants01;
+
+ script latn;
+     language dflt ;
+      lookup cv01CharacterVariants01;
+} cv01;
+
+feature cv02 {
+
+ script DFLT;
+     language dflt ;
+      lookup cv02CharacterVariants02;
+
+ script grek;
+     language dflt ;
+      lookup cv02CharacterVariants02;
+
+ script latn;
+     language dflt ;
+      lookup cv02CharacterVariants02;
+} cv02;
+
+feature cv03 {
+
+ script DFLT;
+     language dflt ;
+      lookup cv03CharacterVariants03;
+
+ script grek;
+     language dflt ;
+      lookup cv03CharacterVariants03;
+
+ script latn;
+     language dflt ;
+      lookup cv03CharacterVariants03;
+} cv03;
+
+feature cv04 {
+
+ script DFLT;
+     language dflt ;
+      lookup cv04CharacterVariants04;
+
+ script grek;
+     language dflt ;
+      lookup cv04CharacterVariants04;
+
+ script latn;
+     language dflt ;
+      lookup cv04CharacterVariants04;
+} cv04;
+
+feature liga {
+
+ script DFLT;
+     language dflt ;
+      lookup ligaStandardLigatureslookup;
+
+ script grek;
+     language dflt ;
+      lookup ligaStandardLigatureslookup;
+
+ script latn;
+     language dflt ;
+      lookup ligaStandardLigatureslookup;
+} liga;
+
+feature onum {
+
+ script DFLT;
+     language dflt ;
+      lookup onumOldstyleFigureslookup;
+
+ script grek;
+     language dflt ;
+      lookup onumOldstyleFigureslookup;
+
+ script latn;
+     language dflt ;
+      lookup onumOldstyleFigureslookup;
+} onum;
+
