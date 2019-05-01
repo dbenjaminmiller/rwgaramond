@@ -1,7 +1,7 @@
 SplineFontDB: 3.0
 FontName: RWGaramond-Bold
 FullName: RW Garamond Bold
-FamilyName: RWGaramond
+FamilyName: RW Garamond
 Weight: Bold
 Copyright: RW Garamond is a modified version of URW Garamond No. 8. and GaramondX, with changes being made to support OpenType.\n(c) 2000, 2014, (URW)++ Design & Development.\n(c) 2005, Ralf Stubner. \n(c) 2009, Gael Varoquaux.\n(c) 2012-2017, Michael Sharpe.\n(c) 2019, Daniel Benjamin Miller.\nUsage of this font is subject to the Aladdin Free Public License.
 Version: 2.00
@@ -18,7 +18,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1482005346
-ModificationTime: 1556618947
+ModificationTime: 1556710866
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -52,7 +52,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 588 14 13
+WinInfo: 588 14 1
 BeginPrivate: 7
 BlueValues 35 [-41 0 893 934 1360 1401 1411 1462]
 BlueScale 8 0.039625
